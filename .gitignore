@@ -1,52 +1,38 @@
-# Prerequisites
-*.d
+# CubeIDE specific files
+.metadata/
+.cproject
+.project
+.settings/
 
-# Object files
+# STM32CubeMX generated files
+*.launch
+*.log
+*.tmp
+
+# Build directories
+Debug/
+Release/
+
+# Object and binary files
 *.o
-*.ko
-*.obj
-*.elf
-
-# Linker output
-*.ilk
+*.lst
 *.map
-*.exp
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Libraries
-*.lib
+*.d
 *.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
+*.bin
+*.elf
 *.hex
+*.srec
 
-# Debug files
-*.dSYM/
+# Backup files
+*.bak
+*.tmp
+*.swp
+
+# Generated files
+build/
+build.log
+
+*.ld
+*.cyclo
 *.su
-*.idb
-*.pdb
-
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
